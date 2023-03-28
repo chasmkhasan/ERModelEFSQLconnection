@@ -10,6 +10,6 @@ namespace ERModeling_SQL.Models
     {
         public int Id { get; set; }
         public string ClassName { get; set; }
-        public List<Result> Results { get; set; }
+        public List<Student> Students { get; set; }
     }
 }

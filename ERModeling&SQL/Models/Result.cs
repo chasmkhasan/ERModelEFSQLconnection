@@ -12,12 +12,12 @@ namespace ERModeling_SQL.Models
         [Key]
         public int Id { get; set; }
         public int FkStudentId { get; set; }
-        public int FkClassListId { get; set; }
         public int FkCourseListId { get; set; }
         public int FkAdministrationId { get; set; }
         public int FkGradeListId { get; set; }
         public DateTime ResultDate { get; set; }
         public virtual Administration Administrations { get; set; }
+        public virtual Role Roles { get; set; }
         public virtual ClassList ClassLists { get; set; }
         public virtual CourseList CourseLists { get; set; }
         public virtual GradeList GradeLists { get; set; }

@@ -10,9 +10,8 @@ namespace ERModeling_SQL.Models
     {
         
         public int Id { get; set; }
-        public string AdministratorName { get; set; }
+        public string Position { get; set; }
         public string Name { get; set; }
-
         public List<Result> Results { get; set; }
     }
 }
